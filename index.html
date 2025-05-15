@@ -123,7 +123,7 @@
         }
 
         #intro {
-            padding: 140px 0 80px 0;
+            padding: 90px 0 80px 0;
             justify-content: center; /* Center content vertically */
             text-align: center; /* Center text alignment */
         }
@@ -174,7 +174,7 @@
             font-size: 16px;
             color: #bbb;
             text-align: center;
-            margin-bottom: 60px;
+            margin-bottom: 30px;
             width: 80%;
             margin-left: auto;
             margin-right: auto;
@@ -203,7 +203,7 @@
             transition: background-color 0.5s;
             text-decoration: none;
             margin-right: 8px;
-            margin-bottom: 8px;
+            margin-bottom: 20px;
             display: inline-block;
         }
 
@@ -521,7 +521,7 @@
 
             <a class="button" href="https://arxiv.org/abs/2503.07598" rel="noopener noreferrer">
                 <i class="ai ai-arxiv" style="font-size:17px"></i>
-                VACE Paper
+                Paper
             </a>
             <a class="button" href="https://github.com/ali-vilab/VACE" rel="noopener noreferrer">
                 <i class="fa fa-github" style="font-size:17px"></i>
@@ -537,13 +537,23 @@
             </a>
             <a class="button" href="https://arxiv.org/abs/2410.00086" rel="noopener noreferrer">
                 <i class="ai ai-arxiv" style="font-size:17px"></i>
-                ACE (ICLR2025)
+                ACE (ICLR25)
             </a>
             <a class="button" href="https://arxiv.org/abs/2501.02487" rel="noopener noreferrer">
                 <i class="ai ai-arxiv" style="font-size:17px"></i>
                 ACE++
             </a>
-            <h3 style="font-weight: lighter;">(Project Page in Progress~)</h3>
+<!--            <h3 style="font-weight: lighter;">(Project Page in Progress~)</h3>-->
+
+            <div class="flex-2 flex-dynamic-1" style="display: flex; justify-content: center;">
+                <div class="prompt-wrap full-screen-wrap" style="position: relative;">
+                    <div class="loading-placeholder">
+                        <div class="loading-text">Loading...</div>
+                        <div class="loading-icon">✨</div>
+                    </div>
+                    <video controls autoplay playsinline muted loop onloadeddata="this.style.display='block'; this.previousElementSibling.style.display='none';" src="./assets/videos/vace_wan_day.webm"></video>
+                </div>
+            </div>
 
         </div>
     </section>
